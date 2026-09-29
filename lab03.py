@@ -38,7 +38,7 @@ def word_lengths(sentence):
     # TODO (Part 2): return a list with the length of each word in `sentence`
     #   (words are separated by spaces).
     #I make an empty list
-    lengths: str[list] = []
+    lengths = []
     #for each word in the sentend I add its length to its index in the list
     for word in sentence.split():
         lengths.append(len(word))
